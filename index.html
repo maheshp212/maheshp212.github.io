@@ -1,1 +1,639 @@
-Hello I am Mahesh Perla
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Mahesh</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/css" rel="stylesheet">
+	<link href="css/css(1)" rel="stylesheet">
+	<script src="js/jquery-2.2.3.min.js"></script>
+
+</head>
+
+<body>
+	<!-- banner -->
+	<div id="home" class="banner">
+		<!---728x90--->
+		<div class="banner-agileinfo">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="menu">
+						<a href="index.html" id="menuToggle" title="show navigation">
+							<span class="navClosed"></span>
+						</a>
+						<nav>
+							<a href="index.html#home" class="active scroll">Home</a>
+							<a href="index.html#about" class="scroll">About Me</a>
+							<a href="index.html#skills" class="scroll">Skills</a>
+							<a href="index.html#gallery" class="scroll">My Work</a>
+							<a href="index.html#services" class="scroll">Services</a>
+							<a href="index.html#contact" class="scroll">Contact</a>
+						</nav>
+						<script>
+							(function ($) {
+								// Menu Functions
+								$(document).ready(function () {
+									$('#menuToggle').click(function (e) {
+										var $parent = $(this).parent('.menu');
+										$parent.toggleClass("open");
+										var navState = $parent.hasClass('open') ? "hide" : "show";
+										$(this).attr("title", navState + " navigation");
+										// Set the timeout to the animation length in the CSS.
+										setTimeout(function () {
+											console.log("timeout set");
+											$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+										}, 200);
+										e.preventDefault();
+									});
+								});
+							})(jQuery);
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-text">
+				<div class="container">
+					<h1>
+						<a href="index.html">Mahesh</a>
+					</h1>
+					<h2 class="w3ls-bnrtext">I am
+						<span> FULL STACK </span> Developer</h2>
+					<p class="w3ls-p">an interactive web designer with the passion for creativity</p>
+					<a href="index.html#about" class="buy btn-wayra scroll">Explore my work</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="agile-about w3ls-section text-center" id="about">
+		<div class="container">
+			<h3 class="agileits-title">about me</h3>
+			<div class="agileits-about-grid">
+				<p>I'm a self-taught web developer with an eye for design, UX and UI development and a strong desire to learn and create.I firmly believe in life long learning and I'm constantly exploring new ideas and technologies. I am a committed, responsible, and outgoing individual with great communication and leadership skills.As a team player, lead and a friend, I believe in: Team Work, Commitment and Focus.
+
+I'm presently working as Senior Software Engineer in a startup and always looking for new explorations in web development. I live in Hyderabad, India.</p>
+			</div>
+			<a href="index.html#contact" class="wthree- about-link scroll">hire me</a>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- about-bottom -->
+	<div class="agileits-about-btm">
+		<div class="container">
+			<div class="w3-flex">
+				<div class="col-md-4 col-sm-4 col-xs-12 ab1 agileits-about-grid1">
+					<span class="fa fa-trophy" aria-hidden="true"></span>
+					<h4 class="agileinfo-head">accomplishments</h4>
+					<h5>Marathoner</h5>
+					<p>Ran marathon`s in all south Indian states.</p>
+					<h5>Triathelte</h5>
+					<p>Did Olympic Distance Triathlon at Hyderabad Triathlon.</p>
+					<h5>Community Member</h5>
+					<p>Member in Free Code Camp Hyderbad and Google Developers Group.</p>
+				</div>
+				<div class="col-md-4 col-sm-4 ab1 agileits-about-grid2">
+					<span class="fa fa-graduation-cap  wthree-title-list" aria-hidden="true"></span>
+					<h4 class="agileinfo-head">education</h4>
+					<h5>MBA (pursuing)</h5>
+					<p>ICFAI Business School</p>
+					<h5>M.Tech</h5>
+					<p>J. B. Institute of Engineering and Technology</p>
+					<h5>B.Tech</h5>
+					<p>Lendi Institute of Engineering and Technology</p>
+				</div>
+				<div class="col-md-4 col-sm-4 ab1 agileits-about-grid3">
+					<span class="fa fa-shield  wthree-title-list" aria-hidden="true"></span>
+					<h4 class="agileinfo-head">expertise</h4>
+					<h5>Full Stack Developer</h5>
+					<p>2014-2017</p>
+					<h5>Backend Development</h5>
+					<p>2012-2017</p>
+					<h5>Web Designer</h5>
+					<p>2010-2017</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //about-bottom -->
+	<!---728x90--->
+	<!-- skills -->
+	<div class="agile-service w3ls-section" id="skills">
+		<div class="container">
+			<div class="col-md-5 w3_agileits-service-left">
+				<h3 class="agileits-title">skills</h3>
+				<p>Ncididunt ut labore et t enim ad minim.cididunt ut labore et t enim ad minim.Ncididunt ut labore et t enim ad minim labore
+					et t enim ad minim.Ncididunt ut labore et t enim a.</p>
+			</div>
+			<div class="col-md-7 skills-right">
+				<div class="vertical-skills  pull-right xs-center">
+					<ul class="list-inline">
+						<li>
+							<div class="skill" style="height:100%; background:#ff9d0d;">
+								<span class="value">100%</span>
+							</div>
+							<span class="title">HTML</span>
+						</li>
+						<li>
+							<div class="skill" style="height:80%; background:#03a9f4;">
+								<span class="value">80%</span>
+							</div>
+							<span class="title">CSS</span>
+						</li>
+						<li>
+							<div class="skill" style="height:95%; background:#b32eca;">
+								<span class="value">95%</span>
+							</div>
+							<span class="title">PHP</span>
+						</li>
+						<li>
+							<div class="skill" style="height:90%; background:#009688;">
+								<span class="value">90%</span>
+							</div>
+							<span class="title">AJS</span>
+						</li>
+						<li>
+							<div class="skill" style="height:85%; background:#6361f0;">
+								<span class="value">85%</span>
+							</div>
+							<span class="title">JS</span>
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="w3ls-section agileits-gallery" id="gallery">
+		<div class="container">
+			<h3 class="agileits-title">MY work</h3>
+			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+				<ul id="myTab" class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active">
+						<a href="index.html#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home-main" aria-expanded="true">Show all</a>
+					</li>
+					<li role="presentation">
+						<a href="index.html#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">Angular JS</a>
+					</li>
+					<li role="presentation">
+						<a href="index.html#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">E-Commerce</a>
+					</li>
+					<li role="presentation">
+						<a href="index.html#painting" role="tab" id="painting-tab" data-toggle="tab" aria-controls="painting">PHP</a>
+					</li>
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/ims.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/ims.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>IMS</h5>
+									<p>Angular4, Laravel, MYSQL</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/webGallerian.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/webGallerian.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Web Gallerian</h5>
+									<p>Angular1.5, Prestashop, Mysql </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/reliance.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/reliance.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Reliance Eshop</h5>
+									<p>Prestashop, Smarty & Mysql</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/htcepp.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/htcepp.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>HTC epp</h5>
+									<p>Prestashop, Smarty & Mysql</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/nokiaepp.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/nokiaepp.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>NOKIA epp</h5>
+									<p>Prestashop, Smarty & Mysql</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/saralhealth.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/saralhealth.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Saralheath</h5>
+									<p>PHP, Drupal, BillDesk & Mysql</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/girnarsoft.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/girnarsoft.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Girnarsoft</h5>
+									<p>PHP, YII & Mysql</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/care-dynamics.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/care-dynamics.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Care dynamics</h5>
+									<p>PHP, YII & Mysql</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/ims.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/ims.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>IMS</h5>
+									<p>Angular4, Laravel, MYSQL</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/webGallerian.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/webGallerian.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Web Gallerian</h5>
+									<p>Angular1.5, Prestashop, Mysql </p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/reliance.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/reliance.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Reliance Eshop</h5>
+									<p>Prestashop, Smarty & Mysql</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/htcepp.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/htcepp.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>HTC epp</h5>
+									<p>Prestashop, Smarty & Mysql</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/nokiaepp.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/nokiaepp.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>NOKIA epp</h5>
+									<p>Prestashop, Smarty & Mysql</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/webGallerian.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/webGallerian.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Web Gallerian</h5>
+									<p>Angular1.5, Prestashop, Mysql </p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/ims.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/ims.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>IMS</h5>
+									<p>Angular4, Laravel, MYSQL</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/saralhealth.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/saralhealth.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Saralheath</h5>
+									<p>PHP, Drupal, BillDesk & Mysql</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/girnarsoft.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/girnarsoft.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Girnarsoft</h5>
+									<p>PHP, YII & Mysql</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/projects/care-dynamics.png">
+										<figure class="imghvr-shutter-in-out-diag-2">
+											<img src="images/projects/care-dynamics.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Care dynamics</h5>
+									<p>PHP, YII & Mysql</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="images/jquery.tools.min.js.download"></script>
+		<script src="images/jquery.mobile.custom.min.js.download"></script>
+		<script src="images/jquery.cm-overlay.js.download"></script>
+		<script>
+			$(document).ready(function () {
+				$('.cm-overlay').cmOverlay();
+			});
+		</script>
+	</div>
+	<!-- //menu -->
+	<!-- services -->
+	<div class="w3ls-section services" id="services">
+		<div class="container">
+			<h3 class="agileits-title text-center">LIFE CYCLE</h3>
+			<div class="services-w3ls-row agileits-w3layouts service1 text-center">
+				<h5>backend development</h5>
+				<p>In theory, there is no difference between theory and practice. But, in practice, there is.</p>
+				<div class="s-top">
+					<span class="fa fa-caret-square-o-up" aria-hidden="true"></span>
+				</div>
+			</div>
+			<div class="services-w3ls-row agileits-w3layouts middlegrid-w3ls">
+				<div class="col-md-4 services-grid agileits-w3layouts service2">
+					<div class="col-md-10 w3ls-sub-text">
+						<h5>web design</h5>
+						<p>Nine people can't make a baby in a month.</p>
+					</div>
+					<div class="col-md-2 sub-icon">
+						<span class="fa fa-laptop" aria-hidden="true"></span>
+					</div>
+				</div>
+				<div class="col-md-4 services-grid img-agileits">
+					<img src="images/services.jpg" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-4 services-grid agileits-w3layouts service3">
+					<div class="col-md-2 sub-icon">
+						<span class="fa fa-grav" aria-hidden="true"></span>
+					</div>
+					<div class="col-md-10 w3ls-sub-text">
+						<h5>Athelete</h5>
+						<p>There is power in people who dream big and who try hard</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="services-w3ls-row agileits-w3layouts service4">
+				<div class="s-top">
+					<span class="fa fa-adjust" aria-hidden="true"></span>
+				</div>
+				<h5>fullstack development</h5>
+				<p>Measuring programming progress by lines of code is like measuring aircraft building progress by weight.</p>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	<!---728x90--->
+	<!-- contact -->
+	<div class="contact-w3-agileits w3ls-section" id="contact">
+		<div class="container">
+			<h3 class="agileits-title cont-w3l">Feel free to contact me</h3>
+			<div class="contact-main-w3ls">
+				<div class="col-md-6  contact-left-w3ls">
+					<div class="mail contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Mail me</h4>
+						</div>
+						<div class="col-md-8  col-sm-8 col-xs-8 contact-text-agileinfo">
+							<a href="mailto:info@example.com">maheshp212@gmail.com</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="call contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Phone</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>+91-8143141574</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Address</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>Dr.No: 2-7-82,
+								<br> Sector-10, MVP Colony,
+								<br> Visakhapatnam,
+								<br> Andhra Pradesh,
+								<br> India.
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="visit wthree-social-icons contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Follow me</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<ul class="w3-links">
+								<li>
+									<a href="index.html#">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="index.html#">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="index.html#">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+								<li>
+									<a href="index.html#">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="contact-main">
+					<div class="col-md-6 agileits-main-right">
+						<!-- <form action="index.html#" method="post" class="agile_form">
+							<label class="header">Name</label>
+							<div class="icon1 w3ls-name1">
+								<input placeholder=" " name="first name" type="text" required="">
+							</div>
+							<div class="icon2">
+								<label class="header">Email</label>
+								<input placeholder=" " name="Email" type="email" required="">
+							</div>
+							<label class="header">your message</label>
+							<textarea class="w3l_summary" required=""></textarea>
+							<input type="submit" value="SEND">
+						</form> -->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<script type="text/javascript" src="js/SmoothScroll.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+	<a href="index.html#" id="toTop" style="display: none;">
+		<span id="toTopHover"></span>To Top</a>
+</body>
+
+</html>
